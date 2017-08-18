@@ -6,15 +6,16 @@
  * Created on May 6, 2017, 11:24 PM
  */
 
+#include "xc.h"
+#include "../lcd/lcd_4bit.h"
+#include "..local_rtcc/local_rtcc.h"
+
 #pragma config FWDTEN=OFF, JTAGEN=OFF
 #pragma config POSCMOD=NONE, OSCIOFNC=ON, FCKSM=CSDCMD, FNOSC=FRCPLL 
 #pragma config PLL96MHZ=OFF, PLLDIV=NODIV
 #pragma config SOSCSEL=IO
 #pragma config I2C1SEL=PRI 
 #pragma config RTCOSC = LPRC //trial
-#include "xc.h"
-#include "include/lcd_4bit.h"
-#include "include/local_rtcc.h"
 
 int main(void) {
     TRISB = 0;
