@@ -1,5 +1,5 @@
 /*
- * File:   i2ctest.c
+ * File:   i2cTest.c
  * Author: Rusty
  *
  * Created on May 6, 2017, 9:13 AM
