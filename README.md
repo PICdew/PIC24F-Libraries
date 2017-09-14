@@ -10,6 +10,10 @@ Useful peripheral and module libraries for PIC24F microprocessor
 -   built-in RTCC
 -   RTCC alarm
 
+## Modules Supported
+
+-   MAX7219 - Matrix LED
+
 ## Contributions Needed
 
 -   Example/s for each library
